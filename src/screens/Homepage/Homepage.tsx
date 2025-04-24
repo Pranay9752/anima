@@ -114,9 +114,9 @@ export const Homepage = (): JSX.Element => {
     <div className="bg-white flex flex-row justify-center w-full">
       <div className="bg-white overflow-hidden w-full  relative">
         {/* Hero Section */}
-        <div className="relative h-[776px]">
+        <div className="relative w-[100vw] h-[776px]">
           <img
-            className="w-full h-full object-cover"
+            className="w-[100vw] h-full  object-cover"
             alt="Ezgif"
             src="/ezgif-1.svg"
           />
@@ -234,7 +234,7 @@ export const Homepage = (): JSX.Element => {
                 />
               </div>
               <img
-                className=" object-cover rounded-lg absolute z-10 right-0 "
+                className=" object-cover rounded-lg absolute z-10 right-10 "
                 alt="About Us"
                 src="/about-us-2.png"
               />
@@ -573,20 +573,15 @@ export const Homepage = (): JSX.Element => {
                 <img
                   className=" object-cover"
                   alt="Facility 1"
-                  src="/tennis.png"
+                  src="/accomadition.png"
                 />
                 <h3 className="[font-family:'Matter-Medium',Helvetica] font-medium  text-white  text-[28px] mt-6">
-                  Tennis
+                  Accommodation
                 </h3>
                 <div className="flex mt-3 space-x-2">
                   <Badge className="bg-white text-[#173931] rounded-[50px] px-4 py-1">
                     <span className="[font-family:'Matter-Light',Helvetica] font-light text-[13px]">
-                      Gym
-                    </span>
-                  </Badge>
-                  <Badge className="bg-white text-[#173931] rounded-[50px] px-4 py-1">
-                    <span className="[font-family:'Matter-Light',Helvetica] font-light text-[13px]">
-                      4 Hard Courts
+                      5 Star Hotel
                     </span>
                   </Badge>
                 </div>
@@ -601,20 +596,20 @@ export const Homepage = (): JSX.Element => {
                 <img
                   className=" object-cover"
                   alt="Facility 1"
-                  src="/tennis.png"
+                  src="/fitness.png"
                 />
                 <h3 className="[font-family:'Matter-Medium',Helvetica] font-medium  text-[28px] mt-6">
-                  Tennis
+                  Fitness
                 </h3>
                 <div className="flex mt-3 space-x-2">
-                  <Badge className="bg-white text-[#173931] rounded-[50px] px-4 py-1">
+                  <Badge className="bg-[#173931] text-white rounded-[50px] px-4 py-1">
                     <span className="[font-family:'Matter-Light',Helvetica] font-light text-[13px]">
                       Gym
                     </span>
                   </Badge>
-                  <Badge className="bg-white text-[#173931] rounded-[50px] px-4 py-1">
+                  <Badge className="bg-[#173931] text-white  rounded-[50px] px-4 py-1">
                     <span className="[font-family:'Matter-Light',Helvetica] font-light text-[13px]">
-                      4 Hard Courts
+                      Fitness Room
                     </span>
                   </Badge>
                 </div>
@@ -627,20 +622,25 @@ export const Homepage = (): JSX.Element => {
                 <img
                   className=" object-cover"
                   alt="Facility 1"
-                  src="/tennis.png"
+                  src="/recovery.png"
                 />
                 <h3 className="[font-family:'Matter-Medium',Helvetica] font-medium  text-[28px] mt-6">
-                  Tennis
+                  Recovery
                 </h3>
                 <div className="flex mt-3 space-x-2">
-                  <Badge className="bg-white text-[#173931] rounded-[50px] px-4 py-1">
+                  <Badge className="text-white bg-[#173931] rounded-[50px] px-4 py-1">
                     <span className="[font-family:'Matter-Light',Helvetica] font-light text-[13px]">
-                      Gym
+                      SPA
                     </span>
                   </Badge>
-                  <Badge className="bg-white text-[#173931] rounded-[50px] px-4 py-1">
+                  <Badge className="text-white bg-[#173931] rounded-[50px] px-4 py-1">
                     <span className="[font-family:'Matter-Light',Helvetica] font-light text-[13px]">
-                      4 Hard Courts
+                      Pool
+                    </span>
+                  </Badge>
+                  <Badge className="text-white bg-[#173931] rounded-[50px] px-4 py-1">
+                    <span className="[font-family:'Matter-Light',Helvetica] font-light text-[13px]">
+                      Massage
                     </span>
                   </Badge>
                 </div>
